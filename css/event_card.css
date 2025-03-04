@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: 0.2s ease-in-out;
     position: relative; /* Ensure absolute elements inside behave correctly */
     overflow: hidden; /* Prevent content overflow */
@@ -58,7 +58,7 @@
 
 .textBox > span {
     font-size: 12px;
-    color: lightgrey;
+    color: rgb(0, 0, 0);
 }
 
 .card:hover > .textBox {
@@ -92,8 +92,8 @@
 
 .know-more-btn {
     display: inline-block;
-    background: #ffcc00;
-    color: #313131;
+    background: #ffffff;
+    color: #000000;
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
@@ -102,6 +102,7 @@
   }
   
   .know-more-btn:hover {
-    background: #ff9900;
+    background: #000000;
+    color: #ffffff;
   }
   
