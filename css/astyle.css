@@ -116,7 +116,7 @@ body {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 1.8rem;
   text-align: center;
   color: #ffffff;
   margin-top: 100px;
@@ -505,7 +505,7 @@ body {
   }
   #bdab-prize {
     text-align: center;
-    font-size: 2vh;
+    font-size: 2rem;
     margin-bottom: 5rem;
   }
 
