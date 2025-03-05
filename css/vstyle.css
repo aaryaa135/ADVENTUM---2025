@@ -239,9 +239,10 @@ img {
     position: relative;
     height: 100%;
     display: flex;
+    padding-right: 8em;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: end;
 }
 
 .v__subtitle,
@@ -478,9 +479,9 @@ img {
     text-align: center;
 }
 
-.data__landing {
+/* .data__landing {
     margin: 10rem 0rem 0 37rem;
-}
+} */
 
 @media screen and (min-height: 721px) {
     .v {
@@ -694,6 +695,7 @@ a {
     .contactus {
         margin-left: 1rem;
         width: 88vw;
+        padding-left: 1rem;
     }
 
     .copyright {
