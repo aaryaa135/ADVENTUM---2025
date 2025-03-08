@@ -1,0 +1,33 @@
+.register-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.register-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: inline-block;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .register-button {
+        width: 80%; /* Adjust width for smaller screens */
+        font-size: 14px;
+        padding: 10px;
+    }
+}
