@@ -1,33 +1,37 @@
 .register-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .register-button {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: bold;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Modern gradient */
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
-    border-radius: 8px;
+    border-radius: 50px; /* Rounded edges */
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: all 0.3s ease;
     text-align: center;
     display: inline-block;
+    letter-spacing: 0.5px;
 }
 
 .register-button:hover {
-    background-color: #45a049;
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .register-button {
-        width: 80%; /* Adjust width for smaller screens */
-        font-size: 14px;
-        padding: 10px;
+        width: 90%; /* Wider on smaller screens */
+        font-size: 16px;
+        padding: 12px;
     }
 }
