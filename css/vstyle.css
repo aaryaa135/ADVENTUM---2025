@@ -101,6 +101,7 @@ img {
 }
 
 
+
 /*========== NAV ==========*/
 
 @media screen and (max-width: 768px) {
@@ -215,6 +216,31 @@ img {
     .register-btn {
         color: white;
     }
+}
+
+
+.brochure-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.brochure-link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.brochure-image {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
+
+.brochure-link:hover {
+    transform: scale(1.05);
 }
 
 
