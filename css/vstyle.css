@@ -150,13 +150,23 @@ img {
 }
 
 .nav {
+    position: fixed;
     max-width: 100%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 6px;
-    margin-top: 10px;
+    gap: 935px;
+    z-index: 1000;
+     
+}
+
+.scrolled {
+    background: rgba(0, 0, 0, 0.6); /* Darker background on scroll */
+    backdrop-filter: blur(10px); /* Stronger blur effect */
+    padding: 10px 20px; /* Reduce padding on scroll for a compact look */
+    transition: 1s;
 }
 
 .nav__logo,
@@ -166,19 +176,20 @@ img {
 
 .acm-logo {
     max-width: 6rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 2rem;
 }
 
 .nav__link {
     color: var(--first-color-dark);
     font-weight: var(--font-medium);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .nav__item {
     margin-bottom: 1.5rem;
     height: 3.5vh;
+    
 }
 
 .nav__item:hover {
@@ -197,6 +208,10 @@ img {
 
 .show-menu {
     top: calc(var(--header-height) + 1rem);
+}
+
+.register-button-container {
+    margin-top: -2px; /* Space below countdown */
 }
 
 .register-btn {
@@ -234,7 +249,7 @@ img {
 }
 
 .brochure-image {
-    width: 300px; /* Adjust size as needed */
+    width: 350px; /* Adjust size as needed */
     height: auto;
     display: block;
 }
@@ -267,8 +282,8 @@ img {
     display: flex;
     padding-right: 8em;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: space-evenly;
+    align-items: center;   
 }
 
 .v__subtitle,
@@ -280,18 +295,29 @@ img {
 .v__data {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    padding-top: -rem;
+    position: relative;
+    margin-top: -25px;
 }
 
 .v__title {
     font-size: var(--biggest-font-size);
     font-weight: bold;
+    position: relative;
+    top: 5rem; 
+    text-align: center;
+    
 }
 
 .v__description {
-    margin-top: -1.5rem;
+    margin-top: 0.5rem;
     font-size: var(--big-font-size);
+    position: relative;
+    top: 2.5rem; 
+    text-align: center;
+    align-items: center;
 }
 
 .v__button {
@@ -506,7 +532,7 @@ img {
 }
 
 /* .data__landing {
-    margin: 10rem 0rem 0 37rem;
+    margin-top: 150px;
 } */
 
 @media screen and (min-height: 721px) {
@@ -526,6 +552,13 @@ img {
 /* .v__container{
   border-bottom: 2px solid white;
 } */
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 #countdown>ul {
     display: flex;

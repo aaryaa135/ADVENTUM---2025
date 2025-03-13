@@ -6,6 +6,18 @@ let toggle = document.getElementById("nav-toggle")
 let body = document.getElementById("body")
 
 /*==================== SHOW MENU ====================*/
+
+window.addEventListener("scroll", function () {
+  let navbar = document.querySelector(".nav");
+  if (window.scrollY > 50) { // Change when scrolled more than 50px
+      navbar.classList.add("scrolled");
+  } else {
+      navbar.classList.remove("scrolled");
+  }
+});
+
+
+
 const showMenu = (nav, butOne, butTwo, toggle, body) => {
     // Validate that variables exist
     let opened = 0;
