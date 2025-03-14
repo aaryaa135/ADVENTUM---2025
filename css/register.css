@@ -1,7 +1,7 @@
 .register-button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: -2px; /* Space below countdown */
 }
 
 .register-button {
@@ -30,7 +30,7 @@
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .register-button {
-        width: 90%; /* Wider on smaller screens */
+        width: 98%; /* Wider on smaller screens */
         font-size: 16px;
         padding: 12px;
     }

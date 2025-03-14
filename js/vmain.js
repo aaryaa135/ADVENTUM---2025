@@ -18,6 +18,7 @@ window.addEventListener("scroll", function () {
 
 
 
+
 const showMenu = (nav, butOne, butTwo, toggle, body) => {
     // Validate that variables exist
     let opened = 0;

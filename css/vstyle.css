@@ -123,16 +123,12 @@ img {
         padding: 1.5rem;
         background-color: #08100f;
         border-radius: 1rem;
-        transition: .6s;
+        transition: .6s; 
+        display: none;
     }
 
     .hide {
         display: none;
-    }
-
-    .hamburger {
-        font-size: 2.5rem;
-
     }
 
     .cross {
@@ -147,6 +143,23 @@ img {
         content: "\edc2";
         font-size: 2.5rem;
     }
+
+    .scrolled{
+        overflow: hidden;
+        left: -25px;
+    }
+
+    .scrolled .acm-logo{
+        margin-left: 2px;
+        max-height: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .nav__logo .acm-logo {
+        max-width: 5rem;
+        margin-top: 2rem;
+    }
+
 }
 
 .nav {
@@ -226,10 +239,6 @@ img {
         max-width: 5rem;
         margin-top: 1rem;
         margin-left: -1rem;
-    }
-
-    .register-btn {
-        color: white;
     }
 }
 
@@ -462,6 +471,7 @@ img {
 
     .v__container {
         grid-template-columns: repeat(2, 1fr);
+
     }
 
     .v__description {

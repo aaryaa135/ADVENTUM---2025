@@ -8,8 +8,31 @@
         align-items: center;
         text-align: center;
         padding-right: 0;
-        margin-top: 5rem;
+        margin-top: 4.5rem;
     }
+
+    .v__title{
+        margin-top: -9rem;
+        font-size: 3.5rem;
+    }
+
+    .v__description{
+        margin-top: 18px;
+        font-size: 1rem;
+    }
+
+    .vs-col{
+        margin-top: 15px;
+    }
+
+    .brochure-image{
+        width: 300px; /* Adjust size as needed */
+        height: auto;
+        display: block;
+    }
+
+    
+
     .prizepool-section {
         margin-top: 15rem;
     }
