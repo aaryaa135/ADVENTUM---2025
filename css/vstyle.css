@@ -247,6 +247,7 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 100px;
 }
 
 .brochure-link {
@@ -317,6 +318,7 @@ img {
     position: relative;
     top: 5rem; 
     text-align: center;
+    margin-left: 105px;
     
 }
 
@@ -327,6 +329,7 @@ img {
     top: 2.5rem; 
     text-align: center;
     align-items: center;
+    margin-left: 130px;
 }
 
 .v__button {
@@ -568,6 +571,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 230px;
 }
 
 #countdown>ul {

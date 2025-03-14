@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: -2px; /* Space below countdown */
+    margin-left: 90px;
 }
 
 .register-button {
