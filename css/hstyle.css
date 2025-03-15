@@ -193,6 +193,12 @@
   }
   .row {
     gap: 1em;
+    align-items: center;
+    margin-top: 7rem;
+  }
+
+  .row{
+    
   }
 }
 @media screen and (max-width: 625px) {
