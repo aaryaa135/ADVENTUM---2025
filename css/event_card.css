@@ -4,6 +4,8 @@
     gap: 120px; /* Space between cards */
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
     padding: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .card {

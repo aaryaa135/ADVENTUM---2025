@@ -116,14 +116,15 @@
 
 /* About Section responsiveness for mobile view */
 @media (max-width: 50em){
-    .h-container h1{
-        margin-top: 350px;
-        font-size: 40px;
-    }
+
+  .h-container h1{
+    margin-top: 350px;
+    font-size: 40px;
+  }
     
-    .h-container p {
-      font-size: 0.77em;
-    }
+  .h-container p {
+    font-size: 0.77em;
+  }
 }
 
 
