@@ -211,11 +211,28 @@ img {
 }
 
 .nav__toggle {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Adjust size as needed */
     cursor: pointer;
-    margin-top: 9px;
+    color: white; /* Ensure it's visible */
+    display: block; /* Make sure it's visible */
+    z-index: 1001; /* Ensure it's above other elements */
+    position: relative; /* Ensure it's positioned correctly */
 }
 
+/* Hide the close button by default */
+#close {
+    display: none;
+}
+
+/* Show the close button when the menu is open */
+.show-menu #close {
+    display: block;
+}
+
+/* Hide the open button when the menu is open */
+.show-menu #open {
+    display: none;
+}
 
 /* Show menu */
 
@@ -239,6 +256,11 @@ img {
         max-width: 5rem;
         margin-top: 1rem;
         margin-left: -1rem;
+    }
+
+    .scrolled{
+        opacity: 0%;
+        overflow: hidden;
     }
 }
 
@@ -625,22 +647,9 @@ img {
     padding: 0.5rem;
 }
 
-@media all and (max-width: 768px) {
-    .vs-col {
-        padding-top: 0.25em;
-        font-size: 2.5rem;
-        color: white;
-    }
-
-    .vs-c {
-        font-size: 0.7rem;
-        padding: .75rem;
-    }
-
-    .vs-c span {
-        font-size: 3.375rem;
-    }
-}
+/* @media all and (max-width: 768px) {
+   
+} */
 
 @media screen and (min-width: 1024px) {
     :root {
@@ -796,7 +805,7 @@ a {
         object-position: 69%;
     }
 
-    .vs-c span {
+    /* .vs-c span {
         font-size: 2.5rem;
-    }
+    } */
 }

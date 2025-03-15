@@ -31,8 +31,13 @@
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .register-button {
-        width: 98%; /* Wider on smaller screens */
-        font-size: 16px;
+        width: 135px; /* Wider on smaller screens */
+        font-size: 19px;
         padding: 12px;
     }
+
+    .register-button-container{
+        margin-left: .8rem;
+    }
+    
 }

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Favicon -->
     <link rel="icon" href="img/acmlogo (4).png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,8 +31,10 @@
     <link rel="stylesheet" href="css/adventum_logo.css" />
     <link rel="stylesheet" href="css/register.css" />
 
+    <!-- hamburger -->
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="css/vstyle.css" />
     <link rel="stylesheet" href="css/mobile.css" />
 <!--     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script> -->
@@ -48,8 +52,10 @@
     <div id="main-code" class="hide">
         <header class="header">
             <nav class="nav bd-container">
+                <!-- LOGO -->
                 <a href="#" class="nav__logo"><img class="acm-logo" src="img/acmlogo.png" /></a>
 
+                <!-- Menu -->
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -63,10 +69,11 @@
                     </ul>
                 </div>
 
+                <!-- Hamburger Toggle Button -->
                 <div class="nav__toggle" id="nav-toggle">
-                    <i id="open" class="bx bx-menu hamburger"></i>
-                    <i id="close" class='bx bx-x hamburger cross  hide'></i>
-                </div>
+                    <i class="bx bx-menu" id="open"></i> <!-- Open Icon -->
+                    <i class="bx bx-x" id="close" class="hide"></i> <!-- Close Icon -->
+                </div>                
             </nav>
         </header>
         <main class="main" id="home"> 

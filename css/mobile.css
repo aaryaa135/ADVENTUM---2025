@@ -9,20 +9,42 @@
         text-align: center;
         padding-right: 0;
         margin-top: 4.5rem;
+        overflow-x: hidden;
     }
 
     .v__title{
         margin-top: -9rem;
         font-size: 3.5rem;
+        margin-left: 0.1rem;
     }
 
     .v__description{
         margin-top: 18px;
         font-size: 1rem;
+        margin-left: 0.1rem;
+    }
+    
+    .countdown {
+        margin-left: 15px;
     }
 
     .vs-col{
-        margin-top: 15px;
+        margin-top: 19px;
+        color: white;
+        font-size: 2.8rem;
+    }
+
+    .vs-c {
+        font-size: 0.7rem;
+        padding: .75rem;
+    }
+
+    .vs-c span {
+        font-size: 2.375rem;
+    }
+
+    .brochure-container{
+        margin-left: -0.5rem;
     }
 
     .brochure-image{
@@ -30,8 +52,6 @@
         height: auto;
         display: block;
     }
-
-    
 
     .prizepool-section {
         margin-top: 15rem;
